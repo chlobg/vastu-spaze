@@ -49,7 +49,9 @@ const ContactUs = () => {
               >
                 {CONTACT_INFO.address.label}
               </p>
-              <p className="text-neutral-600">{CONTACT_INFO.address.value}</p>
+              <p className="text-neutral-600 text-left">
+                {CONTACT_INFO.address.value}
+              </p>
             </div>
           </div>
         </div>
