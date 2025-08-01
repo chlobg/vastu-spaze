@@ -15,7 +15,10 @@ const ContactUs = () => {
           <div className="flex items-start">
             <RiPhoneLine className="text-3xl mr-4" />
             <div>
-              <p className="text-lg font-semibold">
+              <p
+                className="text-lg font-semibold display: flex
+;"
+              >
                 {CONTACT_INFO.phone.label}
               </p>
               <p className="text-lg">{CONTACT_INFO.phone.value}</p>
@@ -26,7 +29,10 @@ const ContactUs = () => {
           <div className="flex items-start">
             <RiMailLine className="text-3xl mr-4" />
             <div>
-              <p className="text-lg font-semibold">
+              <p
+                className="text-lg font-semibold    display: flex
+;"
+              >
                 {CONTACT_INFO.email.label}
               </p>
               <p className="text-lg">{CONTACT_INFO.email.value}</p>
@@ -37,7 +43,10 @@ const ContactUs = () => {
           <div className="flex items-start">
             <RiMapPinLine className="text-3xl mr-4" />
             <div>
-              <p className="text-lg font-semibold">
+              <p
+                className="text-lg font-semibold   display: flex
+;"
+              >
                 {CONTACT_INFO.address.label}
               </p>
               <p className="text-lg">{CONTACT_INFO.address.value}</p>
