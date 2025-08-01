@@ -15,7 +15,7 @@ const Footer = () => {
             rel="noopener noreferrer"
             aria-label="Visit our Facebook page"
           >
-            <RiFacebookFill className="w-6 h-6" />
+            <RiFacebookFill />
           </a>
 
           <a
@@ -24,7 +24,7 @@ const Footer = () => {
             rel="noopener noreferrer"
             aria-label="Visit our Twitter page"
           >
-            <RiTwitterFill className="w-6 h-6" />
+            <RiTwitterFill />
           </a>
 
           <a
@@ -33,7 +33,7 @@ const Footer = () => {
             rel="noopener noreferrer"
             aria-label="Visit our Instagram page"
           >
-            <RiInstagramFill className="w-6 h-6" />
+            <RiInstagramFill />
           </a>
         </div>
         <p className="text-sm">&copy; 2025 VastuSpaze. All rights reserved.</p>
