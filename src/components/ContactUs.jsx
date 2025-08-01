@@ -12,7 +12,7 @@ const ContactUs = () => {
 
         <div className="flex flex-col lg:flex-row justify-around items-start lg:items-center gap-12">
           {/* Phone */}
-          <div className="flex items-start">
+          <div className="flex mb-8 lg:mb-0">
             <RiPhoneLine className="text-3xl mr-4" />
             <div>
               <p
@@ -26,7 +26,7 @@ const ContactUs = () => {
           </div>
 
           {/* Email */}
-          <div className="flex items-start">
+          <div className="flex mb-8 lg:mb-0">
             <RiMailLine className="text-3xl mr-4" />
             <div>
               <p
@@ -40,7 +40,7 @@ const ContactUs = () => {
           </div>
 
           {/* Address */}
-          <div className="flex items-start">
+          <div className="flex">
             <RiMapPinLine className="text-3xl mr-4" />
             <div>
               <p
